@@ -148,3 +148,29 @@ let Newton = Celsius * (33/100);
 Newton = Math.floor(Celsius * (33/100));
 
 console.log(`The weather in Newton today is ${Newton} degrees.`);
+
+//DOG YEARS CALCULATOR
+// setting human age value
+const myAge = 28;
+//creating a valuable of earlyYears for the dogs
+let earlyYears = 2;
+//Multiplying the 2 early years to equal to that of the dog years from that of human and reassigning it.
+earlyYears *= 10.5;
+
+// Now we remove 2 from human years as it is accounted in dog years above. Then reassign
+
+let laterYears = myAge - 2;
+
+//calculating the number of dog years in human years.
+
+laterYears *= 4;
+
+//age in dog years
+
+let myAgeInDogYears = laterYears + earlyYears;
+
+//setting name
+
+const myName = "Dodo".toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
