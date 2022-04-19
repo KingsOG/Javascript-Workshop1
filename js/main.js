@@ -103,3 +103,48 @@ multiplyMe *= 11;
 
 let quarterMe = 1152;
 quarterMe /= 4;
+
+//String Concatenation with Variables
+
+let favouriteDrink = "Water";
+console.log("I am a Hydrohomie, I drink " + favouriteDrink);
+
+// String Interpolation using template literal
+
+let favSport ="Gaming";
+let myCar = "Lexus";
+console.log(`My preferred sports is ${favSport} and I drive a ${myCar}.`);
+
+//typeof operator
+
+let gumBit = "car";
+console.log(typeof gumbit); // string
+
+gumBit = 330 //reassigned
+console.log(typeof gumBit); // number
+
+//Weather App
+
+/*With our knowledge of JavaScript, let’s convert Kelvin to Celsius, then to Fahrenheit.*/
+
+const Kelvin = 286 //Choosen Kelvin weather value for the day
+const Celsius = Kelvin - 273; // Kelvin minus 273 gives the value of Celsius.
+
+//To calculate the weather value in Fahrenheit, we use the equation below.
+
+let Fahrenheit = Celsius * (9/5) + 32;
+ 
+//To round up the values to interger
+
+Fahrenheit = Math.floor(Celsius * (9/5) + 32);
+
+//Let us console log our answer with template literals.
+
+console.log(`The weather today in Fahrenheit is ${Fahrenheit}` degrees);
+
+//Convert to Newton witht the equation below
+
+let Newton = Celsius * (33/100);
+Newton = Math.floor(Celsius * (33/100));
+
+console.log(`The weather in Newton today is ${Newton} degrees.`);
