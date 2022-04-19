@@ -82,3 +82,24 @@ Create a constant variable named entree and set it to equal to the string 'Enchi
 
 const entree = "Enchiladas";
 console.log(entree);
+
+//Mathematical Assignment Operators
+
+//Use the += mathematical assignment operator to increase the value stored in levelUp by 5
+
+let levelUp = 10;
+levelUp += 5;
+
+//Use the -= mathematical assignment operator to decrease the value stored in powerLevel by 100.
+
+let powerLevel = 9001;
+powerLevel -= 100;
+
+//Use the *= mathematical assignment operator to multiply the value stored in multiplyMe by 11.
+let multiplyMe = 32;
+multiplyMe *= 11;
+
+//Use the /= mathematical assignment operator to divide the value stored in quarterMe by 4.
+
+let quarterMe = 1152;
+quarterMe /= 4;
