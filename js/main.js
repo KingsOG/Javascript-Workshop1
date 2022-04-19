@@ -50,3 +50,35 @@ console.log(Math.ceil(43.8)); //44
 Put the number 2017 in the parentheses of the method and use console.log() to print the result.*/
 
 console.log(Number.isInteger(2017)); //True
+
+//In programming, a variable is a container for a value.
+
+/*Declare a variable named favoriteFood using the var keyword and assign to it the string 'pizza'.
+Declare a variable named numOfSlices using the var keyword and assign to it the number 8.
+Under the numOfSlices variable, use console.log() to print the value saved to favoriteFood.
+
+On the following line, use console.log() to print the value saved to numOfSlices.*/
+
+var favouriteFood = "pizza";
+var numOfSlices = 8;
+console.log(favouriteFood);
+console.log(numOfSlices);
+
+//let keyword signals that the variable can be reassigned a different value.
+
+/*Create a let variable called changeMe and set it equal to the boolean true.
+On the line after changeMe is declared, set the value of changeMe to be the boolean false.
+
+To check if changeMe was reassigned, log the value saved to changeMe to the console.*/
+
+let changeMe = true;
+changeMe = false;
+console.log(changeMe);
+
+//const
+/*
+Create a constant variable named entree and set it to equal to the string 'Enchiladas'.
+*/
+
+const entree = "Enchiladas";
+console.log(entree);
